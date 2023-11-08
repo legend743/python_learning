@@ -8,4 +8,3 @@ def power(n,m):
 
 p=power(m,n)
 print(p)
-         
