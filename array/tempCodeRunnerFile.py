@@ -1,0 +1,1 @@
+sorted_array.append(temp)

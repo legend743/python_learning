@@ -1,22 +1,11 @@
-a=[3,1,-2,-5,2,-4]
-l=[]
-buffer=[]
-for value in a:
-    if value>0:
-        if not buffer and not l:
-            l.append(value)
-            continue
-        if l[-1]<0:
-            l.append(value)
-            continue
-        else:
-            buffer.append(value)
-            print(buffer,"this is buffer value")
-            continue
-    if value<0:
-        l.append(value)
-        if buffer:
-            l.append(buffer[0])
+# Q10.Shift Array element by 1.
 
-            buffer=[]
-print(l)
+# 	i/p `[10 20 30 40 50 60]`
+# 	o/p [60 10 20 30 40 50]
+a=[10,20,30,40,50,60]
+b=[]
+
+for i in range(-1,len(a)-1):
+    b.append(a[i])
+
+print(b)
