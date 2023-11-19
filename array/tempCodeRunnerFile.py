@@ -1,1 +1,1 @@
-sorted_array.append(temp)
+a=[20,30,40,30,2]
